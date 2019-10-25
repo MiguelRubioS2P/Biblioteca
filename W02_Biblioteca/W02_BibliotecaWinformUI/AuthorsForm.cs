@@ -50,6 +50,11 @@ namespace W02_BibliotecaWinformUI
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
+            //añadir una variable global para controlar si exite y entonces solo declarar uno.
+            //if (!existsAuthorsForm)
+            //{
+            //    authorsForm = new AuthorForm
+            //}
             BibliotecaMainForm form = new BibliotecaMainForm();
 
             form.Show();
